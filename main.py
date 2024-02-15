@@ -9,7 +9,7 @@ cat = cv2.CascadeClassifier(str(cascade_cat))
 
 camera = cv2.VideoCapture(1)
 camera.set(3,600)
-camera.set(4, 600)
+camera.set(4,600)
 
 while True:
     _, frame = camera.read()
